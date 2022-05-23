@@ -1,0 +1,51 @@
+:root {
+    --darkest: black;
+    --darker: gray;
+    --dark: darkgray;
+    --blank: white;
+    --girliePink: pink;
+    --whitePink: lightpink;
+    --flamingo: hotpink;
+    --deepRed: crimson;
+    --roseRed: red;
+    --icyBlue: lightblue;
+    --classicalBlue: blue;
+    --tintBlue:steelblue;
+    --blueGreen: teal;
+    --hunterGreen: green;
+    --lemon: lime;
+    --canary: yellow;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.global-scope {
+    border: 4px solid var(--tintBlue);
+    background-color: var(--icyBlue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.title {
+    font-size: 8em;
+    font-family: fantasy;
+    background-color: var(classicalBlue);
+}
+.emoji {
+    font-size: 20em;
+    user-select: none;
+    cursor: pointer;
+}
+.up {
+display: none;
+}
+.down {
+display: none;
+}
+.run {
+display: block;
+}

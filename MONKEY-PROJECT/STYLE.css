@@ -1,0 +1,51 @@
+:root {
+    --darkest: black;
+    --darker: gray;
+    --dark: darkgray;
+    --prettyPink: hotpink;
+    --blank: white;
+    --cream: wheat;
+    --heavyCream: gold;
+    --brightGreen: lime;
+    --green: green;
+    --greenBlue: teal;
+   --classicalBlue: blue;
+   --offBlue: steelblue;
+   --icyBlue: lightblue;
+   --deepRed: crimson;
+   --girColor: pink;
+   --lessPink: lightpink;
+    --canary: yellow;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body {
+ background-color: var(--greenBlue);
+ display: flex;  
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 100vh; 
+}
+.title {
+    color: var(--canary);
+    font-family: fantasy;
+    font-size: 10em;
+}
+.emoji {
+    font-size: 28em;
+    cursor: pointer;
+    user-select: none;
+}
+.closed {
+    display: none;
+}
+.open {
+    display: none;
+}
+.active {
+    display: block;
+}
