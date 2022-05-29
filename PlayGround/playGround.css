@@ -20,6 +20,10 @@
     height: 200px;
     width: 200px;
     padding: 10px;
+    transition: all 100ms ease-in-out;
+}
+.libraryBill:hover {
+    transform: rotate(20deg);
 }
 .li {
     padding: 10px;
@@ -32,6 +36,7 @@
 }
 .container-main {
     text-align: center;
+    background-color: black;
 }
 .newYorkNights {
     position: fixed;
@@ -39,23 +44,24 @@
     left: 241px;
     width: 1198px;
     height: 420px;
-    margin-right: -240px;
     padding-top: 0;
+    opacity: 0.8;
 }
 .mainHeader {
     display: flex;
-    padding-left: 40px;
+    padding-top: 52%;
+    padding-left: 200px;
     word-wrap: wrap;
     flex-direction: column;
     align-content: center;
     align-items: center;
     right: 220px;
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     padding-top: 30%;
     text-align: center;
     font-family: Sans-Serif;
-    max-width: 70%;
-    margin-left: 300px;
+    background-color: black;
+    color: white;
 }
 .story {
     margin-left: 300px;
@@ -63,6 +69,8 @@
     padding: 30px;
     font-family: inherit;
     font-size: 1.1rem;
+    background-color: black;
+    color: white;
 }
 .dataScience {
     display: flex;
@@ -79,6 +87,8 @@
     font-family: Sans-Serif;
     max-width: 70%;
     margin-left: 300px;
+    background-color: black;
+    color: white;
 }
 .dataSciencePara {
     margin-left: 300px;
@@ -86,6 +96,8 @@
     padding: 30px;
     font-family: inherit;
     font-size: 1.1rem;
+    background-color: black;
+    color: white;
 }
 .headerTwo {
     display: flex;
@@ -102,6 +114,8 @@
     font-family: Sans-Serif;
     max-width: 70%;
     margin-left: 300px;
+    background-color: black;
+    color: white;
 }
 .story1 {
     margin-left: 300px;
@@ -109,6 +123,8 @@
     padding: 30px;
     font-family: inherit;
     font-size: 1.1rem;
+    background-color: black;
+    color: white;
 }
 .headerThree {
     display: flex;
@@ -125,6 +141,8 @@
     font-family: Sans-Serif;
     max-width: 70%;
     margin-left: 300px;
+    background-color: black;
+    color: white;
 }
 .story2 {
     margin-left: 300px;
@@ -132,6 +150,8 @@
     padding: 30px;
     font-family: inherit;
     font-size: 1.1rem;
+    background-color: black;
+    color: white;
 }
 .whereIAmAt {
     margin-left: 300px;
@@ -139,6 +159,8 @@
     padding: 30px;
     font-family: inherit;
     font-size: 1.1rem;
+    background-color: black;
+    color: white;
 }
 .story3 {
     margin-left: 300px;
@@ -146,6 +168,8 @@
     padding: 30px;
     font-family: inherit;
     font-size: 1.1rem; 
+    background-color: black;
+    color: white;
 }
 
 
