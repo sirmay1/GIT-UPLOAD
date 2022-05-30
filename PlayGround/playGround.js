@@ -8,7 +8,7 @@ document.getElementsByClassName('.about')
     })
 });
 
-    
+   
 
 document.getElementsByClassName('.data');
 data.addEventListener('click', () => {

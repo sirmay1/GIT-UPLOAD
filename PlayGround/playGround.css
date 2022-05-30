@@ -11,7 +11,8 @@
     text-align: center;
     position: fixed;
     left: 0;
-    background-color: teal;
+    background-color: lightslategray;
+    color: white;
     padding: 20px;
     height: 100vh;
 }
@@ -56,7 +57,7 @@
     align-content: center;
     align-items: center;
     right: 220px;
-    font-size: 1.9rem;
+    font-size: 2rem;
     padding-top: 30%;
     text-align: center;
     font-family: Sans-Serif;
@@ -171,6 +172,8 @@
     background-color: black;
     color: white;
 }
+
+
 
 
 

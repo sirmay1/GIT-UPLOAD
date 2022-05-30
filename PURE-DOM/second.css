@@ -1,0 +1,29 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: minmax(auto, auto);
+    grid-auto-rows: minmax(auto, auto);
+    grid-gap: 8px;
+}
+.grid-item1 {
+ grid-column: span 2;
+ background-color: lightskyblue;
+}
+.grid-item2 {
+ grid-row: span 2;
+  background-color: pink;
+}
+.grid-item3 {
+  grid-row: span 1;
+    background-color: orange;
+}
+.grid-item4 {
+    background-color:orangered;
+}
+.grid-item5 {
+    background-color: hotpink;
+}
+.grid-item6 {
+    background-color: goldenrod;
+}
+
